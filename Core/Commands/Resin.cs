@@ -101,8 +101,14 @@ namespace resinBot.Core.Commands
         [Command("spend")]
         public async Task DoSpend(int resinValue)
         {
-            // TODO CHECK IF EXISTS FIRST
-            
+            if (!Data.UserExists(Context.User.Id))
+            {
+                await MiscUtil.EmbedResponse($"User <@{Context.User.Id}> was not found in the database. " +
+                    $"Use `{Config.Config.GENERAL.CMD_PREFIX}setresin <resin> <minutes> <seconds>` to set your current resin.",
+                    Context.Channel);
+                return;
+            }
+
             // some prereqs
             resinValue = Math.Clamp(resinValue, 0, Config.Config.GENERAL.MAX_RESIN);
 
