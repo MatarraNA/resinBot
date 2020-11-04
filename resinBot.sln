@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "resinBot", "resinBot.csproj", "{98B20308-1AAE-4C42-948A-C7CC07349161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98B20308-1AAE-4C42-948A-C7CC07349161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B20308-1AAE-4C42-948A-C7CC07349161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B20308-1AAE-4C42-948A-C7CC07349161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B20308-1AAE-4C42-948A-C7CC07349161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2D479C7-089D-4CAC-8621-01E82103CF28}
+	EndGlobalSection
+EndGlobal
